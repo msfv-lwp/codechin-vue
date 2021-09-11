@@ -1,0 +1,217 @@
+body{
+    margin: 0px;
+    direction :rtl !important;
+    font-family: VazirCodeChine !important;
+ }
+ .mr-top{
+    margin-top: 6% !important;
+ }
+ .header{
+    display: flex !important;
+ }
+ .header-logo{
+    width: 20%;
+ }
+ .header-search{
+    width: 50%;
+ }
+ .header-btn{
+    width: 25%;
+    justify-content: left;
+    align-items: left;
+ }
+ .logo{
+    margin-top: 5px;
+    display: block;
+    width:90%;
+    height:90%;
+ }
+ .search-bar{
+    width:100%;
+    padding: 15px;
+    margin-top: 8px;
+    height:45px;
+    color : #8d9bab;
+    background-color : #f1f5f9;
+    border-radius: 16px;
+    border: 3px solid #e2e7ed;
+    outline: none;
+ }
+ .search-svg{
+    position: absolute;
+    top:25px;
+    right: 1240px;
+ }
+ .btn-login{
+    float: left;
+    color: white;
+    background-color:#22577a;
+    border:1px solid #22577a;
+    margin-top: 9px;
+    padding-right: 20%;
+    padding-left: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius:12px;
+    transition:0.5s;
+ }
+ .btn-login:hover{
+    color: #22577a;
+    background-color:white;
+    border:1px solid #22577a;
+ }
+ .btn-register{
+    float: right;
+    color:  #22577a;
+    background-color : white;
+    border:1px solid #22577a;
+    margin-top: 9px;
+    margin-right: -10px;
+    padding-right: 13%;
+    padding-left: 13%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius:12px;
+    transition:0.5s;
+ }
+ .btn-register:hover{
+    color: white;
+    background-color:#22577a;
+ }
+ .section-one{
+    display: block;
+    background-color:#22577a;
+    padding: 1.5%;
+ }
+ #navbarItem a {
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 16px;
+    padding: 0.5% 1% 0.5% 1%;
+    margin-right: 2.5rem;
+    transition:0.5s;
+ }
+ #navbarItem a:hover {
+    background-color: white;
+    color: #22577a;
+ }
+ .navbar-active{
+    background-color: white;
+    color: #22577a !important;
+ }
+ .vector-section-one{
+    width: 85%;
+ }
+ .button-section-on{
+    display: block;
+    width: 25%;
+    font-size: 19px !important;
+    margin: 3% auto 1% auto;
+    border-radius: 18px;
+    text-decoration: none;
+    padding: 6px 12px 6px 12px;
+    background-color: white;
+    color:#22577a;
+ }
+ .section-two{
+    background-color: #d8e3e7;
+    display: block;
+    padding: 1.5%;
+ }
+ .button-section-two{
+    float: left;
+    text-decoration: none;
+    background-color:#22577a;
+    color: white;
+    padding: 6px 8px 6px 8px;
+    border: 1px solid #22577a;
+    border-radius: 8px;
+    transition: 0.5s;
+ }
+ .button-section-two:hover{
+    background-color:#d8e3e7;
+    color: #22577a;
+ }
+ .item-section-two{
+    background-color: white;
+    border-radius: 8px;
+    padding: 4%;
+    transition: 0.5s;
+ }
+ .item-section-two:hover{
+   box-shadow: 8px 8px #c7c7c7;
+ }
+ .ist-link{
+    text-decoration: none;
+ }
+ .dist-pic{
+    width: 100%;
+    height: 200px;
+ }
+ .ist-pic{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+    transition: 0.5s;
+ }
+ .ist-pic:hover{
+    opacity: 0.5;
+ }
+ .ist-text{
+    text-align: justify;
+    font-size: 14px;
+    color: black;
+ }
+ .ist-footer{
+    font-size: 12.5px;
+    color: grey;
+ }
+ .section-three{
+    background-color: #3c8dad;
+    padding: 1.5%;
+    display: block;
+ }
+ .button-section-three{
+    float: left;
+    text-decoration: none;
+    background-color:#d8e3e7;
+    color: #22577a;
+    padding: 6px 8px 6px 8px;
+    border: 1px solid #d8e3e7 ;
+    border-radius: 8px;
+    transition: 0.5s;
+ }
+ .button-section-three:hover{
+    background-color:#22577a;
+    color: #d8e3e7;
+    border: 1px solid #22577a ;
+ }
+ .item-section-three{
+    margin: 2px auto 0px auto;
+    width: 90%;
+    height: 50%;
+    border-radius: 9px;
+ }
+ .isth-pic{
+    width: 100%;
+    height: 270px;
+    margin-bottom: 10%;
+    border-radius: 8px;
+    object-fit: cover;
+ }
+ .box1{
+    padding:2% !important;
+    border: 1px solid #a3caca;
+    border-radius:7px;
+ }
+ @font-face {
+    font-family: VazirCodeChine;
+    src: url('fonts/Vazir-Medium.eot');
+    src: url('fonts/Vazir-Medium.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Vazir-Medium.woff') format('woff'),
+    url('fonts/Vazir-Medium.ttf') format('truetype');
+    font-weight: normal;
+ }
