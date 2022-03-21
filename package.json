@@ -10,7 +10,9 @@
   "dependencies": {
     "axios": "^0.21.4",
     "core-js": "^3.6.5",
+    "jquery": "^3.6.0",
     "vue": "^3.2.10",
+    "vue-axios": "^3.3.6",
     "vue-router": "^4.0.0-alpha.6",
     "vuex": "^4.0.0-alpha.1"
   },

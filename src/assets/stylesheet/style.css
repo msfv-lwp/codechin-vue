@@ -2,6 +2,7 @@ body{
     margin: 0px;
     direction :rtl !important;
     font-family: VazirCodeChine !important;
+    overflow-x: hidden;
  }
  .mr-top{
     margin-top: 6% !important;
@@ -44,6 +45,7 @@ body{
  }
  .btn-login{
     float: left;
+    text-decoration: none;
     color: white;
     background-color:#22577a;
     border:1px solid #22577a;
@@ -63,6 +65,7 @@ body{
  .btn-register{
     float: right;
     color:  #22577a;
+    text-decoration: none;
     background-color : white;
     border:1px solid #22577a;
     margin-top: 9px;
@@ -207,6 +210,34 @@ body{
     border: 1px solid #a3caca;
     border-radius:7px;
  }
+ .avatar-auth{
+   background-color:rgb(34, 87, 121);
+   min-height : 100vh;
+ }
+ .form-register{
+    text-align:center;
+    width:100%;
+    outline:none;
+    padding: 1.5%;
+    border: 1px solid #adadad;
+    border-radius:9px;
+    margin : 6px 0px 0px 0px;
+ }
+ .btn-registerForm{
+   background-color:rgb(58, 141, 173);
+   border: 1px solid rgb(58, 141, 173);
+   padding:2%;
+   text-align: center;
+   border-radius:9px;
+   margin : 20px 0px 0px 0px;
+   color: white;
+   width:100%;
+   transition: 0.5s;
+ }
+ .btn-registerForm:hover{
+   background-color:white;
+   color: rgb(58, 141, 173);
+}
  @font-face {
     font-family: VazirCodeChine;
     src: url('fonts/Vazir-Medium.eot');
