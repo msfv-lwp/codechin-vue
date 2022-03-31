@@ -63,7 +63,7 @@ export default {
   },
   mounted() {
     axios
-      .get("http://127.0.0.1:3000/api/v1/articles")
+      .get(process.env.API_URL_DOMAIN+"api/v1/articles")
       .then((response) => {
         this.articles = [...response.data].slice(0, 10);
       });
