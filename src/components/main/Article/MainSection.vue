@@ -63,7 +63,7 @@ export default {
   },
   mounted() {
     axios
-      .get(process.env.API_URL_DOMAIN+"api/v1/articles")
+      .get(process.env.VUE_APP_API_URL_DOMAIN+"api/v1/articles")
       .then((response) => {
         this.articles = [...response.data].slice(0, 10);
       });
